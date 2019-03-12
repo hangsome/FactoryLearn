@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.Factory.MethodFactory.MethodFactoryTest</OriginalElement>
+  <nodes>
+    <node x="283.8295454545454" y="0.0">com.Factory.SimpleFactory.Milk</node>
+    <node x="186.99999999999997" y="113.0">com.Factory.MethodFactory.MilkFactory</node>
+    <node x="325.74999999999994" y="319.0">com.Factory.MethodFactory.MethodFactoryTest</node>
+    <node x="369.9045454545454" y="216.0">com.Factory.MethodFactory.TeLunSuFactory</node>
+    <node x="85.80378787878783" y="216.0">com.Factory.MethodFactory.MengNiuFactory</node>
+    <node x="0.0" y="113.0">com.Factory.SimpleFactory.MengNiu</node>
+    <node x="372.0" y="113.0">com.Factory.SimpleFactory.TeLunSu</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.Factory.MethodFactory.MengNiuFactory" target="com.Factory.SimpleFactory.Milk">
+      <point x="0.0" y="-26.5" />
+      <point x="168.30378787878783" y="191.0" />
+      <point x="176.49999999999994" y="191.0" />
+      <point x="176.49999999999994" y="83.0" />
+      <point x="325.3295454545454" y="83.0" />
+      <point x="-41.5" y="26.5" />
+    </edge>
+    <edge source="com.Factory.MethodFactory.MengNiuFactory" target="com.Factory.SimpleFactory.MengNiu">
+      <point x="-55.0" y="-26.5" />
+      <point x="113.30378787878783" y="191.0" />
+      <point x="83.0" y="191.0" />
+      <point x="0.0" y="26.5" />
+    </edge>
+    <edge source="com.Factory.MethodFactory.MethodFactoryTest" target="com.Factory.MethodFactory.MengNiuFactory">
+      <point x="-70.40000000000003" y="-26.5" />
+      <point x="343.3499999999999" y="299.0" />
+      <point x="127.05378787878783" y="299.0" />
+      <point x="-41.25" y="26.5" />
+    </edge>
+    <edge source="com.Factory.SimpleFactory.MengNiu" target="com.Factory.SimpleFactory.Milk">
+      <point x="0.0" y="-26.5" />
+      <point x="83.0" y="73.0" />
+      <point x="297.6628787878787" y="73.0" />
+      <point x="-69.16666666666669" y="26.5" />
+    </edge>
+    <edge source="com.Factory.MethodFactory.TeLunSuFactory" target="com.Factory.SimpleFactory.Milk">
+      <point x="55.0" y="-26.5" />
+      <point x="507.4045454545454" y="191.0" />
+      <point x="548.5" y="191.0" />
+      <point x="548.5" y="83.0" />
+      <point x="408.3295454545454" y="83.0" />
+      <point x="41.5" y="26.5" />
+    </edge>
+    <edge source="com.Factory.MethodFactory.MilkFactory" target="com.Factory.SimpleFactory.Milk">
+      <point x="0.0" y="-26.5" />
+      <point x="269.5" y="93.0" />
+      <point x="352.99621212121207" y="93.0" />
+      <point x="-13.833333333333314" y="26.5" />
+    </edge>
+    <edge source="com.Factory.MethodFactory.TeLunSuFactory" target="com.Factory.MethodFactory.MilkFactory">
+      <point x="-55.0" y="-26.5" />
+      <point x="397.4045454545454" y="191.0" />
+      <point x="310.75" y="191.0" />
+      <point x="41.25" y="26.5" />
+    </edge>
+    <edge source="com.Factory.MethodFactory.MethodFactoryTest" target="com.Factory.SimpleFactory.Milk">
+      <point x="70.40000000000003" y="-26.5" />
+      <point x="484.15" y="299.0" />
+      <point x="566.5257575757576" y="299.0" />
+      <point x="566.5257575757576" y="73.0" />
+      <point x="435.99621212121207" y="73.0" />
+      <point x="69.16666666666669" y="26.5" />
+    </edge>
+    <edge source="com.Factory.MethodFactory.TeLunSuFactory" target="com.Factory.SimpleFactory.TeLunSu">
+      <point x="0.0" y="-26.5" />
+      <point x="452.4045454545454" y="191.0" />
+      <point x="455.0" y="191.0" />
+      <point x="0.0" y="26.5" />
+    </edge>
+    <edge source="com.Factory.MethodFactory.MethodFactoryTest" target="com.Factory.MethodFactory.TeLunSuFactory">
+      <point x="35.19999999999999" y="-26.5" />
+      <point x="448.94999999999993" y="289.0" />
+      <point x="493.6545454545454" y="289.0" />
+      <point x="41.25" y="26.5" />
+    </edge>
+    <edge source="com.Factory.SimpleFactory.TeLunSu" target="com.Factory.SimpleFactory.Milk">
+      <point x="0.0" y="-26.5" />
+      <point x="455.0" y="93.0" />
+      <point x="380.66287878787875" y="93.0" />
+      <point x="13.833333333333371" y="26.5" />
+    </edge>
+    <edge source="com.Factory.MethodFactory.MengNiuFactory" target="com.Factory.MethodFactory.MilkFactory">
+      <point x="55.0" y="-26.5" />
+      <point x="223.30378787878783" y="191.0" />
+      <point x="228.24999999999997" y="191.0" />
+      <point x="-41.25" y="26.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="88.0" y="214.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

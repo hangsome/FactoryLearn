@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.Factory.AbstractFactory.MengNiu</OriginalElement>
+  <nodes>
+    <node x="473.99410847340147" y="357.5167215387281">com.Factory.AbstractFactory.MengNiu</node>
+    <node x="713.4401316929475" y="0.05943510656732087">com.Factory.AbstractFactory.MilkFactory</node>
+    <node x="713.4401316929475" y="103.05943510656729">com.Factory.AbstractFactory.MengNiuFactory</node>
+    <node x="289.5" y="0.0">com.Factory.AbstractFactory.MilkBook</node>
+    <node x="502.47444117137417" y="480.77698839022696">com.Factory.AbstractFactory.AbstractFactoryTest</node>
+    <node x="499.42297695373423" y="104.07658984578063">com.Factory.AbstractFactory.MengNiuStarFactory</node>
+    <node x="283.0" y="103.0">com.Factory.AbstractFactory.MengNiuBookFactory</node>
+    <node x="502.92297695373423" y="1.0765898457806315">com.Factory.AbstractFactory.MilkStar</node>
+    <node x="473.99410847340147" y="208.51672153872812">com.Factory.AbstractFactory.AbstractMilkFactory</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.Factory.AbstractFactory.MengNiuFactory" target="com.Factory.AbstractFactory.MilkFactory">
+      <point x="0.0" y="-26.5" />
+      <point x="0.0" y="26.5" />
+    </edge>
+    <edge source="com.Factory.AbstractFactory.MengNiuStarFactory" target="com.Factory.AbstractFactory.MilkStar">
+      <point x="0.0" y="-26.5" />
+      <point x="0.0" y="26.5" />
+    </edge>
+    <edge source="com.Factory.AbstractFactory.MengNiuBookFactory" target="com.Factory.AbstractFactory.MilkBook">
+      <point x="0.0" y="-26.5" />
+      <point x="0.0" y="26.5" />
+    </edge>
+    <edge source="com.Factory.AbstractFactory.MengNiu" target="com.Factory.AbstractFactory.AbstractMilkFactory">
+      <point x="0.0" y="-49.5" />
+      <point x="0.0" y="49.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.9831345826235094" x="439.4581956130294" y="312.3058395425403" />
+  <SelectedNodes>
+    <node>com.Factory.AbstractFactory.AbstractFactoryTest</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

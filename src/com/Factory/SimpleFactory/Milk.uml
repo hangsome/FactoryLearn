@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.Factory.SimpleFactory.Milk</OriginalElement>
+  <nodes>
+    <node x="82.0" y="191.0">com.Factory.SimpleFactory.MilkFactory</node>
+    <node x="93.5" y="0.0">com.Factory.SimpleFactory.Milk</node>
+    <node x="187.0" y="103.0">com.Factory.SimpleFactory.MengNiu</node>
+    <node x="0.0" y="103.0">com.Factory.SimpleFactory.TeLunSu</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.Factory.SimpleFactory.MengNiu" target="com.Factory.SimpleFactory.Milk">
+      <point x="0.0" y="-26.5" />
+      <point x="270.5" y="78.0" />
+      <point x="218.75" y="78.0" />
+      <point x="41.75" y="26.5" />
+    </edge>
+    <edge source="com.Factory.SimpleFactory.TeLunSu" target="com.Factory.SimpleFactory.Milk">
+      <point x="0.0" y="-26.5" />
+      <point x="83.5" y="78.0" />
+      <point x="135.25" y="78.0" />
+      <point x="-41.75" y="26.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="83.5" y="85.5" />
+  <SelectedNodes>
+    <node>com.Factory.SimpleFactory.MilkFactory</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
